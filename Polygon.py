@@ -24,5 +24,7 @@ class Square(Polygon):
         return "I'm so square."
 
 
-test_shape = Triangle((3, 4, 8))
-print(test_shape)
+test_triangle = Triangle((3, 4, 8))
+test_square = Square((4, 4, 4, 4))
+print(test_triangle)
+print(test_square)
