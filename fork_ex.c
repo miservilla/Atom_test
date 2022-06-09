@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 
     printf("Now I am adding line\n");
 
-    printf("hello world (pid: %d)\n", (int) getpid());
+    printf("hello world (pid: %d)\n", (int) getpid()); //Getting process ID
 
     int rc = fork();
     if (rc < 0)
