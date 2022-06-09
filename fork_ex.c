@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 {
     printf("Testing Atom text editor\n");
 
-    printf("Now I am adding line\n")
+    printf("Now I am adding line\n");
 
     printf("hello world (pid: %d)\n", (int) getpid());
 
