@@ -5,6 +5,7 @@ def duplicates1(L):
     for i in range(n):
         for j in range(n):
             if i !=j and L[i] == L[j]:
+                
                 print(L[i])
                 return True
     return False
